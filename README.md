@@ -1,4 +1,4 @@
-# Robotic_Arm_Simulation_in_ROS
+# Robotic Arm Simulation in ROS
 
 ## About
 This a simulation of a 4-DOF robotic arm in gazebo, using ROS. This follows the simple architecture of a traditional industrial arm, with a base link, torso, upper arm, lower arm and hand. The position of the joints are entered by running the move_arm node write_pos.py program in another terminal. This arm is designed without using meshes, hence has very basic geometrical structure. The model is spawned in gazebo.
