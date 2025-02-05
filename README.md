@@ -80,4 +80,4 @@ Open a new tab in terminal.
 2. Once there type the following command in terminal - `source devel/setup.bash`.
 3. Now type, `roslaunch robot_arm bot.launch`, to launch gazebo.
 
-Open another tab in terminal. Repeat steps 1 and 2 from above paragraph. Now run, `rosrun robot_arm write_pos.py`, to perform actions on the arm.
+Open another tab in terminal. Repeat steps 1 and 2 from above paragraph. Now run `rosrun joy joy_node`, `rosrun robot_arm joy_pos.py`, to perform actions on the arm.
